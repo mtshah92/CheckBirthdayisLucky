@@ -22,9 +22,11 @@ h1{
 input{
   margin-bottom: 0.5rem;
   display:block;
+text-align:center;
 }
 label{
 display:block;
+text-align:center;
 }
 
 #check-btn{
