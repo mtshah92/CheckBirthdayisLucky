@@ -21,7 +21,7 @@ h1{
 
 input{
   margin-bottom: 0.5rem;
-  width:100%;
+  
 }
 
 #check-btn{
@@ -34,6 +34,8 @@ input{
   padding:0.5rem;
   border-radius:5px;
 }
+
+
 
 footer{
   text-align:center;
