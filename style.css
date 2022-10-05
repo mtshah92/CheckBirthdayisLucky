@@ -3,9 +3,10 @@
   --primary-black:#000;
 }
 
+
 body{
   background-color: var(--primary-purple);
-
+    text-align:center;
   color:var(--primary-black);
 }
 
@@ -16,18 +17,16 @@ h1{
 .container{
   width:60%;
   margin:auto;
+  
 }
 
 
-input{
-  margin-bottom: 0.5rem;
-  display:block;
-text-align:center;
-}
 label{
-display:block;
-text-align:center;
-}
+  margin-bottom: 0.5rem;
+  display:block;}
+  
+
+
 
 #check-btn{
   margin-top:1rem;
