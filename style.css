@@ -21,7 +21,10 @@ h1{
 
 input{
   margin-bottom: 0.5rem;
-  
+  display:block;
+}
+label{
+display:block;
 }
 
 #check-btn{
