@@ -1,76 +1,95 @@
-:root{
-  --primary-purple:#7c3aed;
-  --primary-black:#000;
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+:root {
+  --primary-purple: #0ea5e9;
+  --primary-white: white;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 
-body{
+body {
   background-color: var(--primary-purple);
-    text-align:center;
-  color:var(--primary-black);
+  text-align: center;
+  color: var(--primary-white);
+  font-family: "Rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-h1{
-  text-align:center;
+.container {
+  width: 100%;
 }
 
-.container{
-  width:60%;
-  margin:auto;
-  
-}
-
-
-label{
+label {
   margin-bottom: 0.5rem;
-  display:block;}
-  
-
-
-
-#check-btn{
-  margin-top:1rem;
-  margin:auto;
   display: block;
-  background: transparent;
-  color:var--primary-black);
-  border-width:medium;
-  padding:0.5rem;
-  border-radius:5px;
 }
 
-
-
-footer{
-  text-align:center;
-  bottom: 0;
-  left:0;
-  right:0;
+.label-birthDay {
+  padding: 1rem;
+}
+#birthday {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  border-color: var(--primary-white);
 }
 
-.twitter{
-  width:10%;
-  height:10%;
+.label-luckyNumber {
+  padding: 0.5rem;
 }
 
-.privacy-note{
- style:none;
-color:black;
-
+#lucky-no {
+  padding: 0.5rem;
+  width: 70px;
+  height: 10px;
+  border-radius: 1rem;
+  border-color: var(--primary-white);
 }
-a,
-img,
-li{
+
+#check-btn {
+  padding: 1rem 1rem;
+}
+
+button {
+  border-radius: 0.5rem;
+  border-color: white;
+  width: 80px;
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: auto;
+  padding: 0.2rem;
+  gap: 1.5rem;
+  background-color: #7c3aed;
+}
+
+.footer-heading {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-list li {
   display: inline;
 }
 
-img {
-  width: 30px;
-  padding: 0.2rem;
-}
-
-
-html, body {
-  height: 100%;
-  width: 100%;
+.links {
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
